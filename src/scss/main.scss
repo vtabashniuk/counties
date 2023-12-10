@@ -1,0 +1,11 @@
+@import "~normalize.css/normalize.css";
+@import "./title";
+@import "./body";
+
+.cities {
+  display: none;
+
+  &.is-open {
+    display: block;
+  }
+}
