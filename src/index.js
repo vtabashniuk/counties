@@ -1,4 +1,5 @@
 import "./index.html"; 
 import "./scss/main.scss";
 
-import './js/makeList';
+// import './js/makeList';
+import "./js/makeMobileList";

@@ -8,7 +8,17 @@
   </head>
   <body>
     <h1 class="title">WebPack 5 template</h1>
-    <div class="countries"></div>
+    <!-- <div class="countries"></div> -->
+    <div class="selection-container">
+      <div class="country-select">
+        <label for="country">Select Country:</label>
+        <select id="country" class="select-box"></select>
+      </div>
+      <div class="city-select">
+        <label for="city">Select City:</label>
+        <select id="city" class="select-box"></select>
+      </div>
+    </div>
     <script type="module" defer>
       import { polyfillCountryFlagEmojis } from "https://cdn.skypack.dev/country-flag-emoji-polyfill";
       polyfillCountryFlagEmojis();

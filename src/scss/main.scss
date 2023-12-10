@@ -2,10 +2,31 @@
 @import "./title";
 @import "./body";
 
-.cities {
-  display: none;
 
-  &.is-open {
-    display: block;
-  }
+.selection-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.select-box {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+// .cities {
+//   display: none;
+
+//   &.is-open {
+//     display: block;
+//   }
+// }
