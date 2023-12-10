@@ -2,13 +2,28 @@
 @import "./title";
 @import "./body";
 
+@media screen and (max-width: 767px) {
+  .countries {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .countries {
+    display: block;
+  }
+
+  .selection-container {
+    display: none;
+  }
+}
 
 .selection-container {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
 }
 
 .label {
@@ -17,16 +32,16 @@
 }
 
 .select-box {
-  width: 100%;
-  padding: 8px;
   font-size: 14px;
   margin-bottom: 16px;
+  padding: 8px;
+  width: 100%;
 }
 
-// .cities {
-//   display: none;
+.cities {
+  display: none;
 
-//   &.is-open {
-//     display: block;
-//   }
-// }
+  &.is-open {
+    display: block;
+  }
+}
